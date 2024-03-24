@@ -1,0 +1,20 @@
+.Bender svg {
+    width: 400px;
+}
+.Bender {
+    display: flex;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.eye {
+    fill: transparent;
+}
+.pupil {
+    fill: #212121;
+}

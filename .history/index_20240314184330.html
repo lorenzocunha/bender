@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="PT-BR">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bender</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.4/lottie.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="icon-animation">
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    var animation = lottie.loadAnimation({
+      container: document.getElementById('icon-animation'), // O ID do elemento div
+      renderer: 'svg', // Define o renderer como SVG para trabalhar com ícones SVG
+      loop: true, // Define se a animação deve loopar
+      autoplay: true, // Define se a animação começa automaticamente
+      path: 'images/anim.json' // O caminho para o arquivo JSON da animação
+    });
+</script>
